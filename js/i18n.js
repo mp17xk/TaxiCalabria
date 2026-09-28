@@ -17,6 +17,9 @@ window.I18N = {
     "hero.area": "Zona servita: {area}",
     "hero.note": "Scrivi o chiama per verificare la disponibilità: Michele ti risponde per confermare la corsa.",
 
+    "reviews.count": "420 recensioni su Google",
+    "reviews.cta": "Vedi tutte le recensioni su Google →",
+
     "cta.whatsapp": "Scrivi su WhatsApp",
     "cta.call": "Chiama",
     "cta.callMichele": "Chiama Michele",
@@ -88,6 +91,9 @@ window.I18N = {
     "hero.lead": "Michele Galati takes you to the airport, the station, the port or wherever you need to go. Direct contact, no middlemen.",
     "hero.area": "Service area: {area}",
     "hero.note": "Message or call to check availability: Michele will reply to confirm your ride.",
+
+    "reviews.count": "420 reviews on Google",
+    "reviews.cta": "See all reviews on Google →",
 
     "cta.whatsapp": "Message on WhatsApp",
     "cta.call": "Call",
