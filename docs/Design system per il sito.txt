@@ -1,0 +1,55 @@
+**3. Design system per il sito**
+
+**Palette: riconoscibilità taxi, con un tono più curato**
+
+| Colore | HEX | Utilizzo | Associazione ricercata |
+|---|---|---|---|
+| **Giallo taxi** | `#F5C518` | CTA principali, piccoli accenti, dettagli del logo | Visibilità, energia, riconoscibilità del settore |
+| **Antracite** | `#20242A` | Titoli, testi, footer, fondi scuri | Solidità, chiarezza, professionalità |
+| **Avorio chiaro** | `#FAF8F2` | Sfondo principale | Accoglienza e luminosità |
+| **Grigio ardesia** | `#59636E` | Testi secondari e icone | Ordine e discrezione |
+
+Le associazioni cromatiche sono una direzione espressiva, non effetti psicologici universali.
+
+**Applicazione:** prevalenza di fondi chiari, antracite per struttura e leggibilità, giallo concentrato sulle azioni importanti. Sui pulsanti gialli usare testo antracite; evitare testo giallo su avorio e testo bianco sul giallo.
+
+**Tipografia**
+
+Propongo **Manrope per i titoli** e **Inter per i testi**, entrambi presenti su Google Fonts. :chatgpt-content-reference{index="0"}
+
+| Ruolo | Font e peso | Dimensioni indicative | Risultato |
+|---|---|---|---|
+| Titolo principale | Manrope 700 | 48–56 px desktop; 32–36 px mobile | Presenza e personalità |
+| Titoli di sezione | Manrope 600–700 | 28–36 px desktop; 24–28 px mobile | Gerarchia chiara |
+| Testi | Inter 400 | 17–18 px; interlinea 1,5–1,6 | Lettura comoda |
+| Pulsanti e telefono | Inter 600 | 16–20 px secondo il contesto | Azioni facili da individuare |
+
+Usare il maiuscolo solo per il marchio e brevi etichette. Per testi e titoli, preferire una capitalizzazione naturale.
+
+**Stile visivo e componenti**
+
+| Elemento | Linea guida |
+|---|---|
+| **Layout** | Struttura semplice, contenuti larghi al massimo circa 1.160 px, paragrafi brevi e ben separati |
+| **Fotografie** | Immagini reali di Michele, della vettura e degli interni; luce naturale e sfondi ordinati |
+| **Territorio** | Scorci delle località effettivamente servite, usati come contesto |
+| **CTA principale** | Pulsante giallo, testo antracite, angoli arrotondati di 10–12 px, altezza almeno 48 px |
+| **CTA secondaria** | Fondo chiaro e bordo antracite; stessa forma della principale |
+| **Icone** | Un’unica famiglia di icone lineari, con spessore uniforme e descrizioni testuali |
+| **Schede servizi** | Fondo chiaro, bordo leggero, icona e poche righe; ombre molto discrete |
+| **Spazio vuoto** | Sezioni distanziate di circa 64–88 px su desktop e 40–56 px su mobile |
+| **Movimento** | Transizioni brevi e sobrie; contenuti principali immediatamente visibili |
+| **Mobile** | Barra inferiore con “Chiama” e, se disponibile, “WhatsApp”, senza coprire i contenuti |
+
+Eviterei grandi superfici a scacchiera: un piccolo richiamo può funzionare, ma ripeterlo renderebbe il sito visivamente affollato.
+
+**Struttura consigliata della homepage**
+
+1. **Apertura:** marchio, nome, zona effettivamente servita e pulsante “Chiama Michele”.
+2. **Servizi:** tre o quattro categorie confermate, con descrizioni concrete.
+3. **Il tuo autista:** foto di Michele, breve presentazione e informazioni sulla vettura.
+4. **Come organizzare la corsa:** indicare partenza, destinazione, giorno, orario e numero di passeggeri.
+5. **Recensioni:** testimonianze autentiche con riferimento alla fonte.
+6. **Contatti:** numeri, modalità di richiesta e disponibilità effettive.
+
+La prima schermata deve rispondere subito a tre domande: **chi mi accompagna, dove opera e come lo contatto**. In particolare, aggiungerei la località di partenza: “Calabria” identifica il territorio, ma da sola non chiarisce dove sia disponibile il taxi.

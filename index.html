@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Taxi Calabria – Michele Galati | Taxi a Vibo Valentia</title>
+  <meta name="description" content="Taxi Calabria di Michele Galati: tassista indipendente a Vibo Valentia. Transfer aeroporti, stazioni e porti, corse urbane ed extraurbane. Richiedi la disponibilità su WhatsApp o per telefono.">
+  <meta name="theme-color" content="#20242A">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Taxi Calabria – Michele Galati">
+  <meta property="og:description" content="Tassista indipendente a Vibo Valentia. Richiedi la disponibilità su WhatsApp o per telefono.">
+  <meta property="og:image" content="img/logo-web.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+  <link rel="apple-touch-icon" href="img/mark.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Manrope:wght@600;700;800&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    // Applica subito la lingua salvata per evitare lampeggi
+    try { var l = localStorage.getItem("lang"); if (l === "en" || l === "it") document.documentElement.lang = l; } catch (e) {}
+  </script>
+</head>
+<body>
+  <!-- Icone lineari (stroke uniforme) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></symbol>
+      <symbol id="i-wa" viewBox="0 0 24 24"><path d="M3.5 20.5l1.3-4.2A8.5 8.5 0 1 1 8 19.4z"/><path d="M9 8.6c.2-.5.5-.6.8-.6h.5c.2 0 .4.1.5.4l.7 1.6c.1.2 0 .4-.1.6l-.5.6c-.1.1-.1.3 0 .5a6 6 0 0 0 2.6 2.4c.2.1.4 0 .5-.1l.6-.7c.1-.2.4-.2.6-.1l1.6.8c.2.1.3.3.3.5 0 .9-.6 1.8-1.7 1.9-1 .1-2.8-.3-4.6-2S8.6 11 8.7 9.8c0-.5.1-.9.3-1.2z"/></symbol>
+      <symbol id="i-plane" viewBox="0 0 24 24"><path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/></symbol>
+      <symbol id="i-train" viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="14" rx="3"/><path d="M5 11h14M9 21l-2-4M15 21l2-4M8.5 14h.01M15.5 14h.01M9 3v8M15 3v8"/></symbol>
+      <symbol id="i-route" viewBox="0 0 24 24"><circle cx="6" cy="19" r="2.5"/><circle cx="18" cy="5" r="2.5"/><path d="M8.5 19H17a3.5 3.5 0 0 0 0-7H7a3.5 3.5 0 0 1 0-7h8.5"/></symbol>
+      <symbol id="i-tow" viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.8-3.8a6 6 0 0 1-7.9 7.9l-6.9 6.9a2.1 2.1 0 0 1-3-3l6.9-6.9a6 6 0 0 1 7.9-7.9z"/></symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+      <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+      <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></symbol>
+      <symbol id="i-car" viewBox="0 0 24 24"><path d="M5 17H3v-5l2-5h14l2 5v5h-2"/><path d="M3 12h18"/><circle cx="7.5" cy="17" r="2"/><circle cx="16.5" cy="17" r="2"/><path d="M9.5 17h5"/></symbol>
+      <symbol id="i-list" viewBox="0 0 24 24"><path d="M9 6h11M9 12h11M9 18h11"/><circle cx="4.5" cy="6" r="1"/><circle cx="4.5" cy="12" r="1"/><circle cx="4.5" cy="18" r="1"/></symbol>
+      <symbol id="i-send" viewBox="0 0 24 24"><path d="M22 2 11 13M22 2l-7 20-4-9-9-4z"/></symbol>
+      <symbol id="i-check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/></symbol>
+      <symbol id="i-ig" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></symbol>
+      <symbol id="i-fb" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></symbol>
+      <symbol id="i-camera" viewBox="0 0 24 24"><path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3z"/><circle cx="12" cy="13" r="3"/></symbol>
+    </defs>
+  </svg>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#top" class="brand" data-i18n-aria="nav.home" aria-label="Torna all'inizio">
+        <picture>
+          <source srcset="img/logo-web.webp" type="image/webp">
+          <img src="img/logo-web.png" width="720" height="126" alt="Taxi Calabria – Michele Galati" data-i18n-alt="alt.logo">
+        </picture>
+      </a>
+      <nav class="main-nav" aria-label="Menu">
+        <a href="#servizi" data-i18n="nav.services">Servizi</a>
+        <a href="#chi-sono" data-i18n="nav.about">Chi sono</a>
+        <a href="#come" data-i18n="nav.how">Come richiedere</a>
+        <a href="#contatti" data-i18n="nav.contact">Contatti</a>
+      </nav>
+      <div class="lang-switch" role="group" data-i18n-aria="nav.lang" aria-label="Lingua">
+        <button type="button" data-lang="it" aria-pressed="true" lang="it">IT</button>
+        <button type="button" data-lang="en" aria-pressed="false" lang="en">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- 1. APERTURA -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="hero.eyebrow">Tassista indipendente</p>
+          <h1 data-i18n="hero.title">Il tuo taxi a Vibo Valentia, in tutta la Calabria</h1>
+          <p class="lead" data-i18n="hero.lead">Michele Galati ti accompagna in aeroporto, in stazione, al porto o dove devi andare. Contatto diretto, senza intermediari.</p>
+          <p class="area-badge"><svg class="ic"><use href="#i-pin"/></svg><span data-i18n="hero.area" data-area>Zona servita: Vibo Valentia e Calabria</span></p>
+          <div class="cta-row">
+            <a class="btn btn-primary js-wa" href="#" target="_blank" rel="noopener">
+              <svg class="ic"><use href="#i-wa"/></svg><span data-i18n="cta.whatsapp">Scrivi su WhatsApp</span>
+            </a>
+            <a class="btn btn-secondary js-tel" href="#">
+              <svg class="ic"><use href="#i-phone"/></svg><span data-i18n="cta.callMichele">Chiama Michele</span>
+            </a>
+          </div>
+          <p class="note" data-i18n="hero.note">Scrivi o chiama per verificare la disponibilità: Michele ti risponde per confermare la corsa.</p>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <svg viewBox="0 0 400 420" class="road" preserveAspectRatio="xMidYMid slice">
+            <path class="road-body" d="M330 -10 C 250 120, 360 210, 200 290 S 60 380, 90 440"/>
+            <path class="road-line" d="M330 -10 C 250 120, 360 210, 200 290 S 60 380, 90 440"/>
+            <g transform="translate(200 250)"><g class="pin">
+              <circle cx="0" cy="40" r="9" class="pin-dot"/>
+              <path d="M0 30 L-8 18 H8 Z" class="pin-bg"/>
+              <rect x="-78" y="-8" width="156" height="30" rx="15" class="pin-bg"/>
+              <text x="0" y="12" text-anchor="middle" class="pin-text">Vibo Valentia</text>
+            </g></g>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. SERVIZI -->
+    <section class="section" id="servizi">
+      <div class="container">
+        <p class="kicker reveal" data-i18n="services.kicker">Servizi</p>
+        <h2 class="reveal" data-i18n="services.title">Dove ti porto</h2>
+        <div class="cards" id="services-list"></div>
+      </div>
+    </section>
+
+    <!-- 3. CHI SONO -->
+    <section class="section section-alt" id="chi-sono">
+      <div class="container about">
+        <div class="about-media reveal">
+          <figure class="photo" id="driver-photo">
+            <div class="photo-ph"><svg class="ic"><use href="#i-camera"/></svg><span data-i18n="about.photoDriver">Foto di Michele in arrivo</span></div>
+          </figure>
+        </div>
+        <div class="about-copy">
+          <p class="kicker reveal" data-i18n="about.kicker">Chi sono</p>
+          <h2 class="reveal" data-i18n="about.title">Michele, il tuo autista</h2>
+          <p class="reveal" data-i18n="about.p1">Sono Michele Galati, tassista indipendente con base a Vibo Valentia.</p>
+          <p class="reveal" data-i18n="about.p2">Quando mi contatti parli direttamente con me: organizziamo insieme la corsa, dall'orario al punto di ritrovo.</p>
+          <div class="vehicle reveal">
+            <figure class="photo photo-sm" id="car-photo">
+              <div class="photo-ph"><svg class="ic"><use href="#i-car"/></svg><span data-i18n="about.photoCar">Foto della vettura in arrivo</span></div>
+            </figure>
+            <div>
+              <h3 data-i18n="about.vehicle">La vettura</h3>
+              <dl class="vehicle-data" id="vehicle-data"></dl>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4a. COME RICHIEDERE -->
+    <section class="section" id="come">
+      <div class="container">
+        <p class="kicker reveal" data-i18n="how.kicker">Come richiedere una corsa</p>
+        <h2 class="reveal" data-i18n="how.title">Tre passi, semplici</h2>
+        <ol class="steps">
+          <li class="step reveal">
+            <span class="step-ic"><svg class="ic"><use href="#i-list"/></svg></span>
+            <div><h3 data-i18n="how.s1.title">Prepara i dettagli</h3><p data-i18n="how.s1.text">Partenza, destinazione, data, ora e numero di passeggeri.</p></div>
+          </li>
+          <li class="step reveal">
+            <span class="step-ic"><svg class="ic"><use href="#i-send"/></svg></span>
+            <div><h3 data-i18n="how.s2.title">Scrivi o chiama</h3><p data-i18n="how.s2.text">Su WhatsApp trovi un messaggio già pronto da completare.</p></div>
+          </li>
+          <li class="step reveal">
+            <span class="step-ic"><svg class="ic"><use href="#i-check"/></svg></span>
+            <div><h3 data-i18n="how.s3.title">Attendi la conferma</h3><p data-i18n="how.s3.text">La corsa è confermata solo quando Michele ti risponde.</p></div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- 4b. CONTATTI -->
+    <section class="section contact" id="contatti">
+      <div class="container contact-inner">
+        <div class="contact-copy">
+          <p class="kicker kicker-light reveal" data-i18n="contact.kicker">Contatti</p>
+          <h2 class="reveal" data-i18n="contact.title">Richiedi la disponibilità</h2>
+          <p class="reveal" data-i18n="contact.lead">Per una risposta rapida, scrivi su WhatsApp indicando i dettagli della corsa.</p>
+          <div class="cta-row reveal">
+            <a class="btn btn-primary js-wa" href="#" target="_blank" rel="noopener">
+              <svg class="ic"><use href="#i-wa"/></svg><span data-i18n="cta.whatsapp">Scrivi su WhatsApp</span>
+            </a>
+            <a class="btn btn-outline-light js-tel" href="#">
+              <svg class="ic"><use href="#i-phone"/></svg><span data-i18n="cta.call">Chiama</span>
+            </a>
+          </div>
+        </div>
+        <div class="contact-card reveal">
+          <h3 data-i18n="contact.phones">Telefono e WhatsApp</h3>
+          <ul class="phone-list" id="phone-list"></ul>
+          <div class="info-row"><svg class="ic"><use href="#i-pin"/></svg><div><strong data-i18n="contact.area">Zona servita</strong><span data-area-text>Vibo Valentia e Calabria</span></div></div>
+          <div class="info-row"><svg class="ic"><use href="#i-clock"/></svg><div><strong data-i18n="contact.hours">Orari</strong><span id="hours-text" data-i18n="contact.hoursTbc">Da confermare: contatta Michele per la disponibilità</span></div></div>
+          <div class="social">
+            <span data-i18n="contact.social">Seguimi sui social</span>
+            <div class="social-links" id="social-links"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year">2026</span> Taxi Calabria – Michele Galati. <span data-i18n="footer.rights">Tutti i diritti riservati.</span> <span id="vat"></span></p>
+    </div>
+  </footer>
+
+  <!-- Barra contatti fissa su mobile -->
+  <div class="mobile-bar" role="navigation" aria-label="Contatti rapidi">
+    <a class="btn btn-secondary js-tel" href="#"><svg class="ic"><use href="#i-phone"/></svg><span data-i18n="cta.call">Chiama</span></a>
+    <a class="btn btn-primary js-wa" href="#" target="_blank" rel="noopener"><svg class="ic"><use href="#i-wa"/></svg><span>WhatsApp</span></a>
+  </div>
+
+  <script src="js/config.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
