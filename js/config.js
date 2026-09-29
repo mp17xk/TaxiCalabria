@@ -37,7 +37,7 @@ window.SITE_CONFIG = {
     seats: null,      // es. 4
     photo: null       // es. "img/auto.webp"
   },
-  driverPhoto: null,  // es. "img/michele.webp"
+  driverPhoto: "img/fotiMichele.jpeg",
   hours: null,        // es. { it: "Lun–Sab 6:00–22:00", en: "Mon–Sat 6am–10pm" }
   vatNumber: null     // es. "01234567890"
 };

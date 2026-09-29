@@ -178,6 +178,7 @@ p { margin: 0 0 1em; }
 }
 .photo-ph .ic { width: 32px; height: 32px; }
 .about .photo { aspect-ratio: 4 / 3; max-height: 300px; }
+#driver-photo img { object-position: 50% 20%; }
 @media (min-width: 900px) { .about .photo { aspect-ratio: 4 / 5; max-height: 520px; } }
 .vehicle {
   display: grid; grid-template-columns: 112px 1fr; gap: 16px; align-items: center;
