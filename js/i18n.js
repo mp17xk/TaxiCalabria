@@ -62,6 +62,8 @@ window.I18N = {
     "infoUtili.pets.text": "I tuoi animali possono viaggiare con te, comodamente nel trasportino.",
     "infoUtili.childSeat.title": "Seggiolino per bambini",
     "infoUtili.childSeat.text": "Disponibile su richiesta per il trasporto dei più piccoli.",
+    "infoUtili.longTrips.title": "Viaggi extra regionali",
+    "infoUtili.longTrips.text": "Disponibile anche per viaggi fuori dalla Calabria, verso le principali destinazioni del Sud Italia.",
 
     "how.kicker": "Come richiedere una corsa",
     "how.title": "Tre passi, semplici",
@@ -154,6 +156,8 @@ window.I18N = {
     "infoUtili.pets.text": "Your pets can travel with you, comfortably in a carrier.",
     "infoUtili.childSeat.title": "Child car seat",
     "infoUtili.childSeat.text": "Available on request for travelling with young children.",
+    "infoUtili.longTrips.title": "Trips outside Calabria",
+    "infoUtili.longTrips.text": "Also available for trips outside Calabria, to the main destinations in Southern Italy.",
 
     "how.kicker": "How to request a ride",
     "how.title": "Three simple steps",

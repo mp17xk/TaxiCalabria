@@ -166,6 +166,7 @@ p { margin: 0 0 1em; }
 /* About */
 .about { display: grid; gap: 32px; align-items: center; }
 .about-copy > p { color: var(--slate); max-width: 34em; }
+.about-copy > p:not(.kicker) { text-align: justify; hyphens: auto; }
 .photo { margin: 0; border-radius: var(--radius-lg); overflow: hidden; aspect-ratio: 4 / 5; background: #F1EEE4; }
 .photo img { width: 100%; height: 100%; object-fit: cover; }
 .photo-ph {
