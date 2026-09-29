@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://taxicalabria.pages.dev/sitemap.xml
