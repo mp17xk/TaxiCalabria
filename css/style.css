@@ -178,8 +178,12 @@ p { margin: 0 0 1em; }
 }
 .photo-ph .ic { width: 32px; height: 32px; }
 .about .photo { aspect-ratio: 4 / 3; max-height: 300px; }
-#driver-photo img { object-position: 50% 20%; }
 @media (min-width: 900px) { .about .photo { aspect-ratio: 4 / 5; max-height: 520px; } }
+/* Foto ritagliata su sfondo bianco: il bianco si fonde con lo sfondo della cornice */
+#driver-photo { aspect-ratio: 9 / 11; max-height: 460px; }
+#driver-photo img { object-fit: contain; object-position: 50% 100%; mix-blend-mode: multiply; }
+@media (min-width: 900px) { #driver-photo { aspect-ratio: 9 / 13; max-height: 560px; } }
+.about-copy > .about-tagline { font-family: var(--f-head); font-weight: 700; font-size: 1.15em; color: var(--ink); }
 .vehicle {
   display: grid; grid-template-columns: 112px 1fr; gap: 16px; align-items: center;
   margin-top: 24px; padding: 16px; border: 1px solid var(--line); border-radius: var(--radius-lg); background: var(--ivory);
